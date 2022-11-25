@@ -1,0 +1,145 @@
+/* jost-regular - latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        url('../fonts/jost-v14-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/jost-v14-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* jost-700 - latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    src:
+        url('../fonts/jost-v14-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/jost-v14-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+body {
+    margin: 0 auto;
+    font-family: 'Jost' sans-serif;
+    flex-direction: column;
+    background: #F2F2F2;
+}
+.container {
+    width: 540px;
+    padding: 52px 42px 37px 52px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+   
+}
+
+.section {
+    margin: 0 auto;
+}
+
+.h2 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+
+
+    letter-spacing: -0.333333px;
+
+    color: #3A4374;
+
+}
+.h3 {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: -0.194444px;
+
+color: #3A4374;
+
+}
+.p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+color: #647196;
+
+}
+.title-input {
+    width: 450px;
+    height: 48px;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+
+
+color: #3A4374;
+
+}
+
+.h31 {
+    color:
+        #D73737;
+}
+.item-a {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+
+color: #F2F4FE;
+
+    margin-left: 250px;
+    text-decoration: none;
+    padding: 12px 24px 12px 24px;
+    background: #656EA3;
+border-radius: 10px;
+
+
+
+}
+.item-a:hover {
+    background-color: #D73737;
+color: #F2F2F2;
+}
+.item-1 {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+
+color: #F2F4FE;
+
+    text-decoration: none;
+    padding: 12px 25px 12px 25px;
+    background: #C75AF6;
+border-radius: 10px;
+
+
+}
+.item-1:hover {
+    background-color: chartreuse;
+color: #F2F2F2;
+}
+.button {
+    padding-right: 350px;
+    width: 456px;
+    height: 48px;
+}
+.text {
+    width: 456px;
+    height: 96px;
+}
